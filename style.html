@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style type="text/css">
+        h1{
+    color: rgb(228, 228, 241);
+}
+.s_heading{
+    color: rgb(228, 230, 238);
+}
+div{
+    background-color: rgb(5, 32, 58);
+    text-align: center;
+    font-size: 25px;
+    width: 310px;
+    height: 410px;
+    margin:auto;
+
+}
+input{
+    font-size: 75%;
+}
+input[type="text"], textarea {
+
+    background-color : #3b4353;
+    color:rgb(228, 228, 241);
+    height: 30px;
+    width: 210px
+  
+  }
+::placeholder{
+    color:rgb(199, 199, 206);
+}
+input[type="reset"]{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 40px;
+    width: 220px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    }
+head{
+    background-color: black;
+}
+body{
+    background-color: #181a1d;
+}
+span {
+    display: inline-block;
+    animation: weeee 6s linear infinite alternate;
+  }
+  
+  @keyframes weeee {
+     0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+   100% { transform: translateX(101%); color: purple; }
+  }
+        input, textarea {
+            border-radius:5px;
+        }</style>
+</head>
+<body>
+    <div>
+    <h1>WELCOME</h1>
+
+    <h5 class="s_heading"> Let's Create Your Account!</h5>
+    <form action ="form.php">
+        <input type="text" placeholder="Enter Your First Name">
+    <br>
+    <br>
+    <form action ="form.php">
+        <input type="text" placeholder="Enter your Last Name">
+    <br>
+    <br>
+    <form action ="form.php">
+        <input type="text" placeholder="Enter your E-Mail ID">
+    <br>
+    <br>
+    <form action="google.com">
+        <input type="reset" value="Submit">
+    </form>
+    </div>
+
+</body>
+</html>
